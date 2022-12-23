@@ -1,11 +1,12 @@
 # Odbc-and-Powershell
+## Read in simple CSV files using 64bit Microsoft txt-driver  
 It is quite easy to use ODBC with Powershell.  
 The tricky part is living in Europe where more letters than A-Z exist.  
 Notice that every file has encoding. No matter what.  
-I'm using Powershell 5.1 on a Windows 2019 Server. The server displays tekst in US, but has da-DK as locale language
+I'm using Powershell 5.1 on a Windows 2019 Server. The server displays tekst in US, but has da-DK as locale language/keyboard.  
 I have downloaded and installed the US version of `AccessDatabaseEngine_X64.exe`  
 Let's create a setup:  
-<img width="430" alt="image" src="https://user-images.githubusercontent.com/12120277/209286073-00175c2f-e9f2-47c0-8ae7-71fd0d3f07f7.png">  
+<img width="368" alt="image" src="https://user-images.githubusercontent.com/12120277/209295354-8ff26d41-2e4e-497a-8772-c013f550e774.png">  
 I have named the Data Source and pointed to the folder:  
 <img width="332" alt="image" src="https://user-images.githubusercontent.com/12120277/209288193-3f62797c-ecb8-45de-bf77-a3a56934803e.png">  
 I have this file - encoded in UTF-8 - in the folder `D:\deledata`. Filename is `import.txt`  
